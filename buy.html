@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body class="buy-body">
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="about.html">About</a>
+        <a href="buy.html">Buy</a>
+    </nav>
+
+
+    <div class="container">
+        <div>
+            <form id="shopping-form" action="confirmation.html" method="GET">
+                <h1 id="Filling"> Please fill this form for shopping</h1>
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Habiba" required minlength="3" >
+                </div>
+                <div>
+                    <label for="lastname">LastName:</label>
+                    <input id="lastname" type="text" placeholder="Mohammadi" required minlength="5" >
+                </div>
+                <div>
+                    <label for="email" >Email:</label>
+                    <input id="email" type="email" placeholder="HabibaMohammad@gmail.com" required>
+                </div>
+                <div>  
+                    <label for="phone">Phone Number:</label>  
+                    <input id="phone" type="tel" placeholder="0780-000-000" required>  
+                </div> 
+                <div>
+                    <label for="address">Address:</label>
+                    <input id="address" type="text" placeholder="Herat-Jebreil-Esteqlal 5" required>
+
+                </div>
+                <div>
+                    <label>Please select the houseplant which you want to buy?</label>
+                    <select id="dropdown">
+                    <option>Sansevieria Trifasciata</option>
+                    <option>Schefflera arboricola</option>
+                    <option>Dieffenbachia</option>
+                    <option>Dracena</option>
+                    <option>Dracena Compacta</option>
+                    <option>Petos</option>
+                    <option>Zamifalia</option>
+                    <option>Yucca</option>
+                    <option>Laceleaf</option>
+                    <option>Cactus</option>
+                    <option>Ponytail palm</option>
+                    <option>Vriesea</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="number">How many do you want to buy?</label>
+                    <input id="number" type="number" placeholder="1" min="1" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                    <button type="reset">reset</button>
+                              
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+<footer>
+    <div class="footer-container">
+         
+            <div class="Contact">
+                <p>contact us: +93 780 000 000</p>
+
+            </div>
+            <div class="email">
+                <p>Email: Habiba.Mohammadi@gmail.com</p>
+
+            </div>
+        </div>
+
+</footer>
+
+
+</body>
+</html>
